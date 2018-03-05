@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="">
+<head><title>Daniel Kuhnlein / Designer und Webentwickler aus München</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Informations about Daniel Kuhnlein / Munich-based Designer and Webdeveloper">
+  <meta name="keywords" content="WebGL, Polymer, Javascript, Webdesign, Webdevelopment, Interactive, Workshops">
+  <meta name="author" content="Standardabweichung / Munich, Daniel Kuhnlein / www.standardabweichung.de">
+  <meta name="copyright" content="©2015 Standardabweichung / Munich, Daniel Kuhnlein">
+  <meta name="page-topic" content="Art, Design">
+  <meta name="page-type" content="Portfolio, Demos">
+  <meta name="revisit-after" content="1 week">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Kuhnlein.me">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" sizes="192x192" href="/sites/all/themes/polymer/assets/icons/chrome-touch-icon-192x192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Daniel Kuhnlein.me">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/sites/all/themes/polymer/assets/icons/apple-touch-icon.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage"
+        content="/sites/all/themes/polymer/assets/icons/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="msapplication-tooltip" content="Designer und Webentwickler aus München">
+  <meta name="msapplication-starturl" content="/">
+  <meta name="msapplication-task"
+        content="name=Daniel Kuhnlein on Facebook;action-uri=https://www.facebook.com/standardabweichung.design;icon-uri=https://s-static.ak.facebook.com/rsrc.php/yi/r/q9U99v3_saj.ico">
+  <meta name="format-detection" content="telephone=no">
+  <meta itemprop="name" content="Daniel Kuhnlein / Designer und Webentwickler aus München">
+  <meta itemprop="description" content="Informations about Daniel Kuhnlein / Munich-based Designer and Webdeveloper">
+  <meta itemprop="image" content="/sites/all/themes/polymer/assets/images/Daniel-Kuhnlein-WebGL-Share.jpg">
+  <link rel="image_src" href="//polymer/Daniel-Kuhnlein-WebGL-Share.jpg">
+  <link rel="publisher" href="https://plus.google.com/+StandardabweichungMünchen">
+  <link rel="author" href="https://plus.google.com/+DanielKuhnlein">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@standardabw">
+  <meta name="twitter:title" content="Daniel Kuhnlein / Designer und Webentwickler aus München">
+  <meta name="twitter:description"
+        content="Informations about Daniel Kuhnlein / Munich-based Designer and Webdeveloper">
+  <meta name="twitter:creator" content="@standardabw">
+  <meta name="twitter:image:src" content="/sites/all/themes/polymer/assets/images/Daniel-Kuhnlein-WebGL-Share.jpg">
+  <meta property="og:title" content="Daniel Kuhnlein / Designer und Webentwickler aus München">
+  <meta property="og:description" content="Informations about Daniel Kuhnlein / Munich-based Designer and Webdeveloper">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.kuhnlein.me">
+  <meta property="og:image" content="/sites/all/themes/polymer/assets/images/Daniel-Kuhnlein-WebGL-Share.jpg">
+  <meta property="og:image:width" content="700">
+  <meta property="og:image:height" content="366">
+  <meta property="og:site_name" content="Daniel Kuhnlein / Designer und Webentwickler aus München">
+  <meta property="og:locale" content="en_US">
+  <meta property="fb:admins" content="100000496719223">
+  <script src="polymer/page.js"></script>
+  <script>window.addEventListener("WebComponentsReady", function () {
+      page("/", function () {
+          page.redirect("/en/portrait");
+      });
+      page("/de", function () {
+          page.redirect("/de/portrait");
+      });
+      page("/en", function () {
+          page.redirect("/en/portrait");
+      });
+      page("/en/portrait", function (req) {
+          app.route = "en-portrait";
+          app.routejson = "/api/page/retrieve/4";
+          app.urls = {de: "/de/portrait", en: "/en/portrait",}, app.language = "en";
+      });
+      page("/en/profile", function (req) {
+          app.route = "en-profile";
+          app.routejson = "/api/page/retrieve/5";
+          app.urls = {de: "/de/profil", en: "/en/profile",}, app.language = "en";
+      });
+      page("/en/contact", function (req) {
+          app.route = "en-contact";
+          app.routejson = "/api/page/retrieve/12";
+          app.urls = {de: "/de/kontakt", en: "/en/contact",}, app.language = "en";
+      });
+      page("/de/portrait", function (req) {
+          app.route = "de-portrait";
+          app.routejson = "/api/page/retrieve/1";
+          app.urls = {de: "/de/portrait", en: "/en/portrait",}, app.language = "de";
+      });
+      page("/de/profil", function (req) {
+          app.route = "de-profil";
+          app.routejson = "/api/page/retrieve/2";
+          app.urls = {de: "/de/profil", en: "/en/profile",}, app.language = "de";
+      });
+      page("/de/kontakt", function (req) {
+          app.route = "de-kontakt";
+          app.routejson = "/api/page/retrieve/9";
+          app.urls = {de: "/de/kontakt", en: "/en/contact",}, app.language = "de";
+      });
+      page({hashbang: false});
+      app.loading = true;
+  });</script>
+  <link rel="stylesheet" href="polymer/app.min.css">
+  <link rel="import" href="polymer/imports.min.html">
+  <script src="polymer/lit-min.js"></script>
+</head>
+<body unresolved="" class="fullbleed layout vertical">
+<template is="dom-bind" id="app">
+  <sigma-holo></sigma-holo>
+  <div id="content">
+    <div id="toolbar">
+      <sigma-spinner id="spinner" language="[[language]]" active="true"></sigma-spinner>
+      <div id="navigation">
+        <sigma-menu selected="{{language}}" attr-for-selected="data-route" entry-animation="fade-in-animation"
+                    exit-animation="fade-out-animation">
+          <sigma-tabs data-route="en" class="bottom" selected="{{route}}" attr-for-selected="data-route"
+                      scrollable="true">
+            <sigma-tab loading={{loading}} data-route="en-portrait"><a href="/en/portrait">Portrait</a></sigma-tab>
+            <sigma-tab loading={{loading}} data-route="en-profile"><a href="/en/profile">Profile</a></sigma-tab>
+            <sigma-tab loading={{loading}} data-route="en-contact"><a href="/en/contact">Contact</a></sigma-tab>
+          </sigma-tabs>
+          <sigma-tabs data-route="de" class="bottom" selected="{{route}}" attr-for-selected="data-route"
+                      scrollable="true">
+            <sigma-tab loading={{loading}} data-route="de-portrait"><a href="/de/portrait">Portrait</a></sigma-tab>
+            <sigma-tab loading={{loading}} data-route="de-profil"><a href="/de/profil">Profil</a></sigma-tab>
+            <sigma-tab loading={{loading}} data-route="de-kontakt"><a href="/de/kontakt">Kontakt</a></sigma-tab>
+          </sigma-tabs>
+        </sigma-menu>
+        <sigma-tabs class="bottom" selected="{{language}}" attr-for-selected="data-route" scrollable="true">
+          <sigma-tab language="switcher" data-route="de"><a href="{{urls.de}}">de</a></sigma-tab>
+          <sigma-tab language="switcher" data-route="en"><a href="{{urls.en}}">en</a></sigma-tab>
+        </sigma-tabs>
+      </div>
+    </div>
+    <sigma-ajax-page url="{{routejson}}" urls="{{urls}}">
+      <div id="intro" class="textA">
+        <p class="portrait"><a href="/en/profile">
+          Daniel Kuhnlein</a><br/>
+          Digital Creative
+        </p></div>
+      <div id="facts" class="textB">
+      </div>
+    </sigma-ajax-page>
+  </div>
+</template>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-68686258-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+/*Variable*/
+$bg: #fcfcfc;
+$primaryColor: #f0f0f0;
+$hello: #fafafa;
+
+@mixin btn{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-align: center;
+  color: $primaryColor;
+}
+
+//@mixin grid($flex){
+//  @if $flex{
+//    @include flex;
+//  }@else{
+//    display: block;
+//  }
+//}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  //@include grid(true);
+  @include btn;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+
